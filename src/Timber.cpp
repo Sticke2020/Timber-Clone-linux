@@ -2,14 +2,33 @@
 // Include important libraries here
 #include <SFML/Graphics.hpp>
 
-// Make the code easier to type with "using namespace" using namespace sf;
+// Make the code easier to type with "using namespace" 
+using namespace sf;
 
 // This is where our game starts from int main()
 int main() {
-   // Create a video mode object VideoMode vm(1920, 1080);
+   // Create a video mode object 
+   // VideoMode vm(1920, 1080); This didnt work due to my multiple monitors
+   // Using this instead to get the resolution of my current monitor 
+   VideoMode vm = VideoMode::getDesktopMode();
 
    // Create and open a window for the game
    RenderWindow window(vm, "Timber!!!", Style::Fullscreen);
+
+   // Create a texture to hold a graphic on the GPU
+   Texture textureBackground;
+
+   // Load a graphic into the texture 
+   textureBackground.loadFromFile("assets/graphics/background.png");
+
+   // Create a sprite 
+   Sprite spriteBackground;
+
+   // Attach the texture to the sprite
+   spriteBackground.setTexture(textureBackground);
+
+   // Set the spriteBackground to cover the screen
+   spriteBackground.setPosition(0,0);
 
    while (window.isOpen()) {
 
