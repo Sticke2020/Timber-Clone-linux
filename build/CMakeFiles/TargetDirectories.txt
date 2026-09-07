@@ -1,0 +1,3 @@
+/home/matt/linux/code/Timber/build/CMakeFiles/Timber.dir
+/home/matt/linux/code/Timber/build/CMakeFiles/edit_cache.dir
+/home/matt/linux/code/Timber/build/CMakeFiles/rebuild_cache.dir
