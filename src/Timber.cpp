@@ -48,6 +48,9 @@ int main() {
 
     // Is the bee currently moving?
     bool beeActive = false;
+    bool beePathUp = false;
+    int beeUpFrames = 0;
+    int beeDownFrames = 0;
 
     // How fast can the bee fly?
     float beeSpeed = 0.0f;
@@ -112,7 +115,24 @@ int main() {
         }
         else {
             // Move the bee
-            spriteBee.setPosition(spriteBee.getPosition().x - (beeSpeed * dt.asSeconds()), spriteBee.getPosition().y);
+            if (beePathUp) {
+                spriteBee.setPosition(spriteBee.getPosition().x - (beeSpeed * dt.asSeconds()), spriteBee.getPosition().y + (beeSpeed * dt.asSeconds()));
+                beeUpFrames ++;
+
+                if (beeUpFrames >= 1500) {
+                    beePathUp = false;
+                    beeUpFrames = 0;
+                }
+            }
+            else {
+                spriteBee.setPosition(spriteBee.getPosition().x - (beeSpeed * dt.asSeconds()), spriteBee.getPosition().y - (beeSpeed * dt.asSeconds()));
+                beeDownFrames ++;
+
+                if (beeDownFrames >= 1500) {
+                    beePathUp = true;
+                    beeDownFrames = 0;
+                }
+            }
 
             // Has the bee reached the left hand side of the screen?
             if (spriteBee.getPosition().x < -100) {
