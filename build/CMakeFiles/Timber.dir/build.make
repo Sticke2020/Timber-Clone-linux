@@ -76,15 +76,15 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o: CMakeFiles/Timber.dir/flags.make
 CMakeFiles/Timber.dir/src/Timber.cpp.o: /home/matt/linux/code/Timber/src/Timber.cpp
 CMakeFiles/Timber.dir/src/Timber.cpp.o: CMakeFiles/Timber.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matt/linux/code/Timber/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Timber.dir/src/Timber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Timber.dir/src/Timber.cpp.o -MF CMakeFiles/Timber.dir/src/Timber.cpp.o.d -o CMakeFiles/Timber.dir/src/Timber.cpp.o -c /home/matt/linux/code/Timber/src/Timber.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Timber.dir/src/Timber.cpp.o -MF CMakeFiles/Timber.dir/src/Timber.cpp.o.d -o CMakeFiles/Timber.dir/src/Timber.cpp.o -c /home/matt/linux/code/Timber/src/Timber.cpp
 
 CMakeFiles/Timber.dir/src/Timber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Timber.dir/src/Timber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/linux/code/Timber/src/Timber.cpp > CMakeFiles/Timber.dir/src/Timber.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/linux/code/Timber/src/Timber.cpp > CMakeFiles/Timber.dir/src/Timber.cpp.i
 
 CMakeFiles/Timber.dir/src/Timber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Timber.dir/src/Timber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/linux/code/Timber/src/Timber.cpp -o CMakeFiles/Timber.dir/src/Timber.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/linux/code/Timber/src/Timber.cpp -o CMakeFiles/Timber.dir/src/Timber.cpp.s
 
 # Object files for target Timber
 Timber_OBJECTS = \

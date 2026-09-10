@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/matt/linux/code/Timber/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/Timber.dir/src/Timber.cpp.o -c /home/matt/linux/code/Timber/src/Timber.cpp",
+  "file": "/home/matt/linux/code/Timber/src/Timber.cpp",
+  "output": "CMakeFiles/Timber.dir/src/Timber.cpp.o"
+}
+]
