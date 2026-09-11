@@ -111,6 +111,7 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o: /home/matt/linux/code/Timber/src/Timber.
   /usr/include/c++/14/bits/hash_bytes.h \
   /usr/include/c++/14/bits/invoke.h \
   /usr/include/c++/14/bits/ios_base.h \
+  /usr/include/c++/14/bits/istream.tcc \
   /usr/include/c++/14/bits/iterator_concepts.h \
   /usr/include/c++/14/bits/locale_classes.h \
   /usr/include/c++/14/bits/locale_classes.tcc \
@@ -140,6 +141,7 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o: /home/matt/linux/code/Timber/src/Timber.
   /usr/include/c++/14/bits/ranges_util.h \
   /usr/include/c++/14/bits/refwrap.h \
   /usr/include/c++/14/bits/requires_hosted.h \
+  /usr/include/c++/14/bits/sstream.tcc \
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
@@ -191,6 +193,7 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o: /home/matt/linux/code/Timber/src/Timber.
   /usr/include/c++/14/initializer_list \
   /usr/include/c++/14/ios \
   /usr/include/c++/14/iosfwd \
+  /usr/include/c++/14/istream \
   /usr/include/c++/14/iterator \
   /usr/include/c++/14/locale \
   /usr/include/c++/14/map \
@@ -200,6 +203,7 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o: /home/matt/linux/code/Timber/src/Timber.
   /usr/include/c++/14/pstl/execution_defs.h \
   /usr/include/c++/14/pstl/glue_algorithm_defs.h \
   /usr/include/c++/14/pstl/pstl_config.h \
+  /usr/include/c++/14/sstream \
   /usr/include/c++/14/stdexcept \
   /usr/include/c++/14/streambuf \
   /usr/include/c++/14/string \
@@ -474,9 +478,17 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/SFML/Graphics/BlendMode.hpp:
+/lib/x86_64-linux-gnu/libstb.so.0:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/14/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /lib/x86_64-linux-gnu/libbz2.so.1.0:
 
@@ -502,16 +514,6 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/c++/14/bits/cpp_type_traits.h:
 
-/usr/include/c++/14/bits/ostream.tcc:
-
-/usr/include/c++/14/ext/aligned_buffer.h:
-
-/usr/include/c++/14/bits/concept_check.h:
-
-/lib/x86_64-linux-gnu/libstb.so.0:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
 /usr/include/c++/14/bits/functexcept.h:
 
 /lib/x86_64-linux-gnu/libz.so.1:
@@ -528,9 +530,21 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/c++/14/bits/basic_ios.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/14/bits/iterator_concepts.h:
+
 /usr/include/c++/14/bits/basic_ios.h:
 
 /usr/include/c++/14/bits/alloc_traits.h:
+
+/usr/include/SFML/Graphics/BlendMode.hpp:
+
+/usr/include/c++/14/ext/aligned_buffer.h:
+
+/usr/include/c++/14/bits/concept_check.h:
+
+/usr/include/c++/14/bits/ostream.tcc:
 
 /usr/include/c++/14/backward/binders.h:
 
@@ -606,8 +620,6 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/SFML/Window/Context.hpp:
 
-/usr/include/c++/14/bits/stl_algo.h:
-
 /usr/include/SFML/Window/Clipboard.hpp:
 
 /usr/include/SFML/Graphics/Shape.hpp:
@@ -674,10 +686,6 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/SFML/Graphics.hpp:
 
-/usr/include/c++/14/bits/iterator_concepts.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
 /usr/include/c++/14/bits/string_view.tcc:
 
 /usr/include/c++/14/streambuf:
@@ -695,6 +703,8 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 /usr/include/SFML/Graphics/Rect.hpp:
 
 /usr/include/c++/14/algorithm:
+
+/usr/include/c++/14/istream:
 
 /lib/x86_64-linux-gnu/libmvec.so.1:
 
@@ -779,6 +789,8 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/14/bits/istream.tcc:
 
 /usr/include/c++/14/bits/algorithmfwd.h:
 
@@ -875,6 +887,8 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 /usr/include/c++/14/bits/ranges_base.h:
 
 /usr/include/c++/14/bits/refwrap.h:
+
+/usr/include/c++/14/bits/sstream.tcc:
 
 /usr/include/linux/sched/types.h:
 
@@ -1004,6 +1018,10 @@ Timber: /lib/x86_64-linux-gnu/libX11.so.6 \
 
 /usr/include/c++/14/pstl/glue_algorithm_defs.h:
 
+/usr/include/c++/14/bits/stl_algo.h:
+
+/usr/include/c++/14/sstream:
+
 CMakeFiles/Timber.dir/src/Timber.cpp.o:
 
 /usr/include/c++/14/string:
@@ -1065,9 +1083,3 @@ CMakeFiles/Timber.dir/src/Timber.cpp.o:
 /usr/include/SFML/Window/Export.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
